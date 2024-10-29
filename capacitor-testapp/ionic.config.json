@@ -1,0 +1,7 @@
+{
+  "name": "ekyc-capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

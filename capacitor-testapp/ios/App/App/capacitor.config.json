@@ -1,0 +1,51 @@
+{
+	"appId": "com.capacitorjs.app.testapp",
+	"appName": "capacitor-testapp",
+	"webDir": "dist",
+	"plugins": {
+		"CapacitorCookies": {
+			"enabled": true
+		},
+		"CapacitorHttp": {
+			"enabled": true
+		},
+		"SplashScreen": {
+			"launchAutoHide": false
+		},
+		"LocalNotifications": {
+			"smallIcon": "ic_stat_icon_config_sample",
+			"iconColor": "#CE0B7C"
+		},
+		"PushNotifications": {
+			"presentationOptions": [
+				"alert",
+				"sound"
+			]
+		}
+	},
+	"packageClassList": [
+		"ActionSheetPlugin",
+		"AppPlugin",
+		"AppLauncherPlugin",
+		"CAPBrowserPlugin",
+		"CAPCameraPlugin",
+		"ClipboardPlugin",
+		"DevicePlugin",
+		"DialogPlugin",
+		"FilesystemPlugin",
+		"GeolocationPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"LocalNotificationsPlugin",
+		"CAPNetworkPlugin",
+		"PreferencesPlugin",
+		"PushNotificationsPlugin",
+		"ScreenOrientationPlugin",
+		"ScreenReaderPlugin",
+		"SharePlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin",
+		"TextZoomPlugin",
+		"ToastPlugin"
+	]
+}
